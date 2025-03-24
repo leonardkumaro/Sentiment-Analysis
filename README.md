@@ -9,7 +9,6 @@ Proyek ini menganalisis sentimen ulasan pengguna aplikasi Signal dengan teknik N
 - scrapping.ipynb # Script scraping data ulasan
 - pelatihan_model.ipynb # Notebook untuk training model
 - ulasan_app_signal.csv # Dataset hasil scraping
-- (model_terlatih.pkl) # Model hasil training (opsional)
 
 ## Prasyarat
 - Python
