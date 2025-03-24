@@ -4,12 +4,12 @@ Proyek ini menganalisis sentimen ulasan pengguna aplikasi Signal dengan teknik N
 
 ## Struktur Proyek
 
-├── README.md
-├── requirements.txt
-├── scrapping.ipynb # Script scraping data ulasan
-├── pelatihan_model.ipynb # Notebook untuk training model
-├── ulasan_app_signal.csv # Dataset hasil scraping
-└── (model_terlatih.pkl) # Model hasil training (opsional)
+- README.md
+- requirements.txt
+- scrapping.ipynb # Script scraping data ulasan
+- pelatihan_model.ipynb # Notebook untuk training model
+- ulasan_app_signal.csv # Dataset hasil scraping
+- (model_terlatih.pkl) # Model hasil training (opsional)
 
 ## Prasyarat
 - Python
@@ -24,39 +24,28 @@ pip install -r requirements.txt
 
 ## Menjalankan Proyek
 1. Scraping Data (Opsional)
-Jika ingin mendapatkan data terbaru:
-File output: ulasan_app_signal.csv
 
 2. Pelatihan Model
-Jalankan notebook pelatihan:
-jupyter notebook scrapping.ipynb
+Jalankan notebook pelatihan
 
 Proses ini akan:
-Load data dari ulasan_app_signal.csv
-Preprocessing teks
-Training model klasifikasi sentimen
-Simpan model (opsional)
-
-3. Gunakan Model
-Contoh kode prediksi:
-
-import joblib
-model = joblib.load('model_terlatih.pkl')  # Ganti dengan nama model Anda
-prediksi = model.predict(["Aplikasi ini sangat membantu!"])
-print(prediksi)  # Output: ['positif']
+- Load data dari ulasan_app_signal.csv
+- Preprocessing teks
+- Training model klasifikasi sentimen
+- Simpan model (opsional)
 
 ## Dependensi Utama :
-Pandas
-Scikit-learn
-NLTK/Sastrawi (untuk NLP Bahasa Indonesia)
-Jupyter Notebook
+- Pandas
+- Scikit-learn
+- NLTK/Sastrawi (untuk NLP Bahasa Indonesia)
+- Jupyter Notebook
 
 ## Kontribusi :
-Fork project
-Buat branch baru
-Commit perubahan
-Push ke branch
-Buat Pull Request
+- Fork project
+- Buat branch baru
+- Commit perubahan
+- Push ke branch
+- Buat Pull Request
 
 ## Penyesuaian yang bisa Anda lakukan:
 1. Tambahkan penjelasan spesifik tentang dataset di bagian **Struktur Proyek** jika perlu
